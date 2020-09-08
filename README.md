@@ -1,7 +1,7 @@
-# Notyf for Laravel
+# Notyf Toast Flash Messages for Laravel
 
 <p align="center">
-    <a href="https://packagist.org/packages/lewislarsen/jetstream">
+    <a href="https://packagist.org/packages/lewislarsen/notyf">
         <img src="https://poser.pugx.org/lewislarsen/notyf/d/total.svg" alt="Total Downloads">
     </a>
     <a href="https://packagist.org/packages/lewislarsen/notyf">
@@ -62,10 +62,10 @@ For a full example of a notification, with all parameters used please see below.
 Notyf::create('success', 'User Saved', false, 'top', 'center', '3000');
 ```
 
-This example makes a success notification with the text "User Saved", the notification cannot be dismissed, is placed on the top center of the screen and lasts for 3 seconds.
+This example makes a success message with the text "User Saved", the message cannot be dismissed, is placed on the top center of the screen and lasts for 3 seconds.
 
 ### Parameters
-The following parameters are accepted.
+The below parameters are accepted.
 
 | Order | Name        | Description                                                                                                                          | Type    | Nullable |
 |-------|-------------|--------------------------------------------------------------------------------------------------------------------------------------|---------|----------|
