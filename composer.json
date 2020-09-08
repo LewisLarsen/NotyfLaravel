@@ -9,7 +9,8 @@
         "sessions",
         "js"
     ],
-    "homepage": "https://github.com/LewisLarsen/LaravelNotyf",
+    "issues": "https://github.com/LewisLarsen/NotyfLaravel/issues",
+    "homepage": "https://github.com/LewisLarsen/NotyfLaravel",
     "type": "library",
     "require": {
         "php": "^7.0"
