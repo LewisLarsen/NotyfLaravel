@@ -1,4 +1,20 @@
 # Notyf for Laravel
+
+<p align="center">
+    <a href="https://packagist.org/packages/lewislarsen/jetstream">
+        <img src="https://poser.pugx.org/lewislarsen/notyf/d/total.svg" alt="Total Downloads">
+    </a>
+    <a href="https://packagist.org/packages/lewislarsen/notyf">
+        <img src="https://poser.pugx.org/lewislarsen/notyf/v/stable.svg" alt="Latest Stable Version">
+    </a>
+    <a href="https://packagist.org/packages/lewislarsen/notyf">
+        <img src="https://poser.pugx.org/lewislarsen/notyf/license.svg" alt="License">
+    </a>
+    <a href="http://hits.dwyl.com/LewisLarsen/NotyfLaravel">
+        <img src="http://hits.dwyl.com/LewisLarsen/NotyfLaravel.svg" alt="Hits">
+    </a>
+</p>
+
 Notyf for Laravel aims to improve flash messages, by using the beautiful [Notyf Javascript Library](https://github.com/caroso1222/notyf) for a modern, responsive experience. 
 
 For a demonstration of the notifications, please visit the [Notyf Author Demo Page](https://carlosroso.com/notyf).
