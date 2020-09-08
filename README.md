@@ -77,15 +77,9 @@ The following parameters are accepted.
 | 6     | Duration    | How long the notification lasts for. This value is in milliseconds and can be set to indefinite by the `0` value.                    | Int     | Yes      |
 
 ## Publishing Config & Views
-Should you wish to publish the config to change the default values, you can do so by the following command.
+Should you wish to publish the config / views to modify them, you can do so by the following command.
 ```
-php artisan vendor:publish --tag=notyf-config
-```
-
-If you wish to publish the views, as perhaps you may want to extend the available types, you can do so by the following command.
-
-```
-php artisan vendor:publish --tag=notyf-views
+php artisan vendor:publish --provider="LewisLarsen/NotyfServiceProvider"
 ```
 
 ## Credits
