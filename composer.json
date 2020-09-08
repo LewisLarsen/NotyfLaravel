@@ -1,0 +1,38 @@
+{
+    "name": "lewislarsen/notyf",
+    "description": "Adds Notyf flash notifications to the Laravel framework.",
+    "keywords": [
+        "notyf",
+        "javascript",
+        "flash",
+        "notifications",
+        "sessions",
+        "js"
+    ],
+    "homepage": "https://github.com/LewisLarsen/LaravelNotyf",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lewis Larsen",
+            "email": "lewis.larsen@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "LewisLarsen\\Notyf\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LewisLarsen\\Notyf\\NotyfServiceProvider"
+            ]
+        }
+    }
+}
